@@ -1,35 +1,25 @@
-# 🐦 Twitter Sentiment Dashboard
+# 🐦 Twitter Sentiment Analysis Dashboard
 
-This is a Twitter Sentiment Analysis dashboard built using Python and Streamlit. It allows users to enter a search query and view real-time sentiment analysis (positive, negative, neutral) of tweets using the VADER NLP model.
+A Streamlit-based web app that uses **VADER NLP** to analyze the sentiment of live tweets from Twitter's API.
 
-## 🚀 Features
+## 📌 Features
 
-- Fetch live tweets based on a keyword
-- Sentiment analysis using VADER
-- Visualize results using pie charts and time-series plots
-- Streamlit-based interactive dashboard
+- Live tweet search using keywords or hashtags
+- VADER sentiment scoring (Positive, Neutral, Negative)
+- Visual analysis with bar and pie charts
+- Clean UI built with Streamlit
 
-## 🧰 Tech Stack
+## 🔧 Tech Stack
 
 - Python
 - Streamlit
-- Tweepy
+- Tweepy (Twitter API)
 - NLTK (VADER)
-- Pandas, Matplotlib
+- Pandas & Matplotlib
 
-## 📦 Setup Instructions
+## 🚀 How to Run
 
-```bash
-# Clone the repository
-git clone https://github.com/yourusername/twitter-sentiment-dashboard.git
-cd twitter-sentiment-dashboard
-
-# Create a virtual environment 
-python -m venv venv
-source venv/bin/activate  # or venv\Scripts\activate on Windows
-
-# Install dependencies
-pip install -r requirements.txt
-
-# Run the app
-streamlit run app.py
+1. Clone the repo:
+   ```bash
+   git clone https://github.com/your-username/twitter-sentiment-dashboard.git
+   cd twitter-sentiment-dashboard
