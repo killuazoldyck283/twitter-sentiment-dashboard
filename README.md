@@ -24,7 +24,7 @@ This is a Twitter Sentiment Analysis dashboard built using Python and Streamlit.
 git clone https://github.com/yourusername/twitter-sentiment-dashboard.git
 cd twitter-sentiment-dashboard
 
-# Create a virtual environment (optional but recommended)
+# Create a virtual environment 
 python -m venv venv
 source venv/bin/activate  # or venv\Scripts\activate on Windows
 
